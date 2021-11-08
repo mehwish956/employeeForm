@@ -1,0 +1,560 @@
+@media (max-width: 1310px) {
+  .forgotPassword_div {
+    height: 605px;
+  }
+  .Review {
+    font-size: 11px;
+  }
+}
+@media (max-width: 1024px) {
+  .Rating_cardDiv {
+    height: 195px;
+  }
+  .Rating_cardDiv1 {
+    height: 195px;
+  }
+  .Donebtn {
+    right: 1rem;
+  }
+  .custom-control {
+    margin-top: -3rem;
+    margin-left: 45rem;
+  }
+  #nameinput_group1 {
+    margin-left: 7rem;
+    width: 148%;
+  }
+  .email {
+    font-size: 9px;
+  }
+  .ForgotPassword {
+    margin-left: 18rem;
+  }
+  .card_div {
+    width: 200px;
+    height: 225px;
+    margin-right: 25px;
+  }
+  .card_div1 {
+    width: 200px;
+    height: 225px;
+  }
+  .QualityEngineer {
+    margin-left: -2rem;
+  }
+  .Evaluated-text {
+    font-size: 10px;
+  }
+  .JamesAdams_profile {
+    margin-left: -13px;
+  }
+  #teaminput {
+    width: 120%;
+  }
+}
+@media (max-width: 768px) {
+  #teaminput {
+    width: 97%;
+  }
+  .rating_digit {
+    margin-left: 2rem;
+  }
+  .Rating_cardDiv1 {
+    margin-left: 5rem;
+  }
+  .custom-control {
+    margin-top: -3rem;
+    margin-left: 33rem;
+  }
+  .Donebtn {
+    right: 2rem;
+  }
+  .div_color1 {
+    width: 199px;
+  }
+  .Review {
+    margin-left: 1rem;
+  }
+  .Review1 {
+    margin-left: 1rem;
+  }
+  .contentprofile {
+    left: 11rem;
+  }
+  .div_starcolor {
+    left: 11rem;
+  }
+  .div_starcolor1 {
+    left: 11rem;
+  }
+  .div_starcolor2 {
+    left: 11rem;
+  }
+  .email {
+    line-height: 13px;
+    margin-top: -7px;
+  }
+  #nameinput_group1 {
+    margin-left: 5rem;
+  }
+  .Classinput {
+    padding: 35px 10px 100px 10px;
+  }
+  .QualityEngineer {
+    margin-left: 27px;
+    font-size: 11px;
+  }
+  .At-selectmonth {
+    font-size: 11px;
+  }
+  .card_div1 {
+    margin-top: 20px;
+    width: 153px;
+    margin-right: 30px;
+  }
+  .card_div {
+    margin-top: 20px;
+    width: 153px;
+    margin-left: 0px;
+    margin-right: 30px;
+  }
+  .cardprofile_images {
+    width: 40px;
+    height: 40px;
+  }
+  .Evaluated-text {
+    margin-top: 10px;
+    font-size: 8px;
+    line-height: 9px;
+  }
+  .digitColor_div {
+    width: 35px;
+    height: 35px;
+  }
+  .digit {
+    margin-top: 6px;
+    font-size: 10px;
+  }
+  .At_jamesadams {
+    margin-top: 13px;
+    height: 232px;
+  }
+  .JamesAdams_profile {
+    margin-left: 15px;
+  }
+  .Frameimages {
+    margin-top: 9rem;
+  }
+  .sendCode_div {
+    padding: 20px 0px 0px 0px;
+    height: 563px;
+  }
+  .forgot-heading {
+    font-size: 22px;
+  }
+  .forgot-text {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .form-group {
+    margin-left: 2rem;
+    width: 86%;
+  }
+  .SendCodeBtn {
+    margin-left: 1rem;
+  }
+  .forgotPassword_div {
+    height: 563px;
+  }
+  .forgot-heading1 {
+    margin-left: 2rem;
+  }
+  .login-in {
+    margin-left: 2rem;
+  }
+  .ForgotPassword {
+    margin-left: 16rem;
+  }
+  .signup {
+    margin-top: 2rem;
+  }
+  #eye {
+    right: 2.75rem;
+  }
+  .inputbox {
+    width: 40px;
+    height: 40px;
+    margin-left: 1rem;
+  }
+  .confirmation-text {
+    margin-left: 15px;
+  }
+  .Designation {
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 578px) {
+  .Rating_cardDiv {
+    width: 105%;
+  }
+  .Designation {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 113%;
+  }
+  .form-group .team_div {
+    margin-left: 1rem;
+  }
+  .Rating_cardDiv1 {
+    margin-left: 3rem;
+    width: 105%;
+  }
+  #nameinput_group1 {
+    margin-left: 0rem;
+    width: 130%;
+  }
+  #nameinput_group {
+    width: 114%;
+    margin-left: 2rem;
+  }
+  .team_div {
+    width: 114%;
+  }
+  .Reviewdropdown {
+    right: 21px;
+  }
+  .Step {
+    font-size: 11px;
+  }
+  .custom-control {
+    margin-top: -2.25rem;
+    margin-left: 23rem;
+  }
+  .Donebtn {
+    right: 1rem;
+  }
+  .At-selectmonth {
+    height: 34px;
+    width: 112px;
+  }
+  .profileimages {
+    width: 40px;
+    height: 40px;
+  }
+  .changepaswrdbtn {
+    font-size: 12px;
+    padding: 8px 11px;
+  }
+  .At_jamesadams {
+    margin-top: -7px;
+  }
+  .card_div {
+    width: 453px;
+  }
+  .Evaluated-text {
+    font-size: 13px;
+  }
+  .card_div1 {
+    width: 453px;
+  }
+  .sendCode_div {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 3rem;
+    margin-left: -1rem;
+    box-shadow: 0px 4px 25px rgb(0 0 0 / 15%);
+    height: 528px;
+  }
+  .forgot-heading1 {
+    font-size: 22px;
+  }
+  .login-in {
+    font-size: 21px;
+  }
+  .signup {
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+  .ForgotPassword {
+    margin-left: 21rem;
+    font-size: 13px;
+  }
+  #eye {
+    right: 3.75rem;
+  }
+  .Frameimages {
+    margin-top: 3rem;
+    width: 60%;
+    margin-left: 6rem;
+  }
+  .forgot-heading {
+    margin-top: 3rem;
+  }
+  .At-ratingDiv {
+    margin-left: 2rem;
+    margin-right: -8px;
+  }
+  .At-ratingDiv1 {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 414px) {
+  .Designation {
+    width: 105%;
+  }
+  .Nameinput {
+    font-size: 10px;
+    padding: 15px 10px;
+  }
+  .Designation {
+    margin-left: 23px;
+  }
+  .Donebtn {
+    padding: 8px 33px;
+  }
+  .Rating_cardDiv {
+    margin-left: 2rem;
+    width: 103%;
+  }
+  .Rating_cardDiv1 {
+    margin-left: 2rem;
+    width: 103%;
+  }
+  .team_div {
+    width: 140%;
+    margin-left: -3rem;
+  }
+  #pencilicon {
+    margin-top: 10px;
+    font-size: 13px;
+    margin-left: 11px;
+  }
+  .custom-control {
+    margin-left: 18rem;
+  }
+  .div_color1 {
+    width: 146px;
+  }
+  .Classinput {
+    padding: 23px 10px 100px 10px;
+    font-size: 10px;
+  }
+  .contentprofile {
+    left: 8rem;
+    width: 35px;
+    height: 35px;
+  }
+  .div_starcolor {
+    left: 8rem;
+    width: 35px;
+    height: 35px;
+  }
+  .div_starcolor1 {
+    left: 8rem;
+    width: 35px;
+    height: 35px;
+  }
+  .div_starcolor2 {
+    left: 8rem;
+    width: 35px;
+    height: 35px;
+  }
+  .EmployeeDetails-haeding {
+    font-size: 14px;
+  }
+  .eployeepeofile {
+    width: 40px;
+    height: 40px;
+  }
+  #nameinput_group {
+    width: 105%;
+    margin-left: 2rem;
+  }
+  .custom-control {
+    margin-left: 14rem;
+    margin-top: 1.75rem;
+  }
+  #nameinput_group1 {
+    width: 142%;
+    margin-left: -3rem;
+  }
+  .Donebtn {
+    right: 1rem;
+  }
+  .Review1 {
+    font-size: 11px;
+  }
+  .Review {
+    line-height: 17px;
+    font-size: 11px;
+  }
+  .text {
+    font-size: 21px;
+  }
+  .rating_color1 {
+    height: 6px;
+  }
+  .Step {
+    line-height: 16px;
+  }
+
+  #viewalltbn {
+    margin-top: 0px;
+  }
+  .At-ratingDiv {
+    width: 269px;
+  }
+  .At-ratingDiv1 {
+    width: 269px;
+  }
+  .profileimages {
+    position: absolute;
+    left: 1rem;
+    top: 10px;
+  }
+  .At-selectmonth {
+    margin-top: 16px;
+  }
+  .changepaswrdbtn {
+    margin-top: 16px;
+  }
+  .card_div {
+    width: 340px;
+  }
+  .card_div1 {
+    width: 340px;
+  }
+  .inputbox {
+    margin-top: 2rem;
+  }
+  .confirmation-text {
+    font-size: 13px;
+  }
+  .forgot-heading1 {
+    font-size: 16px;
+    margin-top: 2rem;
+  }
+  .login-in {
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .Frameimages {
+    margin-left: 4rem;
+  }
+  .form-group {
+    margin-left: 1rem;
+    width: 91%;
+  }
+  .forgot-heading {
+    margin-top: 5rem;
+    font-size: 16px;
+  }
+  .forgot-text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .form-group {
+    margin-top: 3rem;
+  }
+  .emailinput {
+    padding: 19px 0.75rem;
+  }
+  .sendcode_btn {
+    font-size: 12px;
+    padding: 11px 103px;
+  }
+  .SendCodeBtn {
+    margin-left: 0rem;
+  }
+  .sendCode_div {
+    padding: 5px;
+    height: 420px;
+  }
+  .ForgotPassword {
+    margin-left: 14.25rem;
+    font-size: 13px;
+    top: 15.25rem;
+  }
+  .JamesAdams_profile {
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+  }
+  .team_div {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 375px) {
+  .eployeepeofile {
+    width: 35px;
+    height: 35px;
+  }
+  .rating_color1 {
+    width: 159px;
+  }
+  .Step {
+    font-size: 10px;
+    line-height: 15px;
+    margin-left: 3rem;
+  }
+  .custom-control {
+    margin-left: 13rem;
+  }
+  #nameinput_group {
+    margin-left: 23px;
+  }
+
+  .At-ratingDiv {
+    width: 235px;
+  }
+  .At-ratingDiv1 {
+    width: 235px;
+  }
+  .card_div {
+    width: 300px;
+  }
+  .card_div1 {
+    width: 300px;
+  }
+  .sendCode_div {
+    margin-top: 2rem;
+    padding: 15px;
+  }
+  .Frameimages {
+    margin-left: 3.75rem;
+  }
+  .ForgotPassword {
+    margin-left: 11rem;
+    font-size: 12px;
+    top: 16.55rem;
+  }
+  #eye {
+    right: 2.75rem;
+    margin-top: -27px;
+  }
+  .signup {
+    font-size: 13px;
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+  .forgot-heading1 {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+  }
+  .login-in {
+    line-height: 30px;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+  .form-group {
+    margin-left: 10px;
+    width: 94%;
+  }
+  .sendcode_btn {
+    padding: 11px 86px;
+  }
+  .forgot-heading {
+    margin-top: 4rem;
+  }
+}

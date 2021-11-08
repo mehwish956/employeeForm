@@ -1,0 +1,700 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none !important;
+  background: 0 0;
+  outline: 0 !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.container {
+  padding: 10px 40px 10px 40px;
+}
+.forgotPassword_div {
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  background-color: #004183;
+  width: 100%;
+  max-width: 1400px;
+  height: auto;
+}
+
+.Frameimages {
+  margin-top: 5rem;
+  width: 80%;
+  transition: transform 0.5s;
+}
+.Frameimages:hover {
+  transform: translateY(-10px);
+}
+.sendCode_div {
+  background: #fff;
+  position: absolute;
+  top: -11px;
+  bottom: 0px;
+  width: 118.55%;
+  height: 615px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 20px 100px 0px 0px;
+}
+.forgot-heading {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 10px;
+  color: #004083;
+  margin-top: 7rem;
+  text-align: center;
+}
+.forgot-heading1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 10px;
+  color: #004083;
+  margin-top: 5rem;
+  margin-left: 5.75rem;
+}
+.confirmation-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #606060;
+  text-align: center;
+  margin-top: 16px;
+  opacity: 0.9;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+.login-in {
+  margin-left: 5.75rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 50px;
+  color: #333333;
+}
+.forgot-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #606060;
+  text-align: center;
+  margin-top: 16px;
+  opacity: 0.9;
+}
+.form-group {
+  margin-top: 4rem;
+  margin-left: 6rem;
+  width: 70%;
+}
+.email {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 0.008em;
+  color: #b6bfcd;
+  position: absolute;
+  margin-top: -13px;
+  margin-left: 16px;
+  background: #fff;
+}
+.emailinput {
+  background: #ffffff;
+  border: 1px solid #e9edf1;
+  border-radius: 7px;
+  padding: 24px 0.75rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 160%;
+  /* or 22px */
+  letter-spacing: 0.008em;
+  /* Dark GreyBlue/100% */
+  color: #004183;
+}
+.SendCodeBtn {
+  margin-top: 1.1rem;
+  margin-left: 2rem;
+}
+.sendcode_btn {
+  background: #004083;
+  border-radius: 9px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 13px 90px;
+  border: none;
+  box-shadow: inset 0 0 0 0 #b11523;
+  transition: ease-in-out 0.35s;
+}
+.sendcode_btn:hover {
+  box-shadow: inset 300px 0 0 0 #b11523;
+  color: #fff;
+}
+#eye {
+  position: absolute;
+  right: 11.75rem;
+  margin-top: -32px;
+  font-size: 15px;
+  opacity: 0.8;
+  color: #b3bfcd;
+}
+.inputbox {
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+  width: 60px;
+  height: 60px;
+  margin-left: 3rem;
+  text-align: center;
+  padding: 16px;
+}
+.ForgotPassword {
+  position: absolute;
+  top: 22.45rem;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #004083;
+  margin-left: 23rem;
+  transition: 0.5s;
+}
+.ForgotPassword:hover {
+  color: #c61e22;
+}
+.signup {
+  font-family: Sofia Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  color: #000000;
+  margin-top: 3.55rem;
+  margin-left: 3rem;
+}
+.changepaswrdbtn {
+  background: #004083;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 10px 20px;
+  border: none;
+  margin-left: 18px;
+  box-shadow: inset 0 0 0 0 #b11523;
+  transition: ease-in-out 0.35s;
+}
+button {
+  background: none;
+}
+.changepaswrdbtn:hover {
+  box-shadow: inset 300px 0 0 0 #b11523;
+  color: #fff;
+}
+.Donebtn {
+  background: #004083;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 10px 50px;
+  border: none;
+  margin-left: 18px;
+  box-shadow: inset 0 0 0 0 #b11523;
+  transition: ease-in-out 0.35s;
+  margin-top: 35px;
+  position: absolute;
+  right: 9rem;
+}
+.Donebtn:hover {
+  box-shadow: inset 300px 0 0 0 #b11523;
+  color: #fff;
+}
+
+.profileimages {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 16px;
+  margin-left: 15px;
+  transition: transform 0.5s;
+}
+.profileimages:hover {
+  transform: translateY(-7px);
+}
+.At-selectmonth {
+  height: 39px;
+  width: 132px;
+  margin-top: 23px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  color: #151515;
+  border: 1px solid #cdcdcd;
+  opacity: 0.7;
+}
+.At-selectmonth:hover {
+  opacity: 0.5;
+}
+option {
+  font-size: 11px;
+  font-family: "open Sans", sans-serif;
+}
+.At_jamesadams {
+  height: 70px;
+  width: 100%;
+  background: #edf6ff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 10px;
+  transition: transform 0.5s;
+}
+.At_jamesadams:hover {
+  transform: translateY(-3px);
+}
+.JamesAdams_profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 15px;
+  transition: transform 0.5s;
+}
+.JamesAdams_profile:hover {
+  transform: translateY(-7px);
+}
+.JamesAdams-text {
+  font-family: "open sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 27px;
+  color: #151515;
+  margin-top: 11px;
+  margin-left: 10px;
+}
+.QualityEngineer {
+  font-family: "open sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #353535;
+  text-align: center;
+}
+.QualityEngineer1 {
+  font-family: "open sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #353535;
+  margin-left: 11rem;
+}
+
+.QualityEngineer:hover {
+  color: #b11523;
+}
+.card_div {
+  width: 230px;
+  height: 225px;
+  background: #edf6ff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 10px;
+  transition: transform 0.5s;
+  margin-right: 44px;
+}
+.card_div:hover {
+  transform: translateY(-8px);
+}
+.card_div1 {
+  width: 230px;
+  height: 225px;
+  background: #edf6ff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 10px;
+  transition: transform 0.5s;
+}
+.card_div1:hover {
+  transform: translateY(-8px);
+}
+.cardprofile_images {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 25px;
+}
+.Evaluated-text {
+  font-family: "open sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 27px;
+  color: #151515;
+  margin-top: -20px;
+}
+.digitColor_div {
+  border-radius: 50%;
+  border: 3px solid #d54380;
+  width: 45px;
+  height: 45px;
+}
+.digit {
+  margin-top: 6px;
+}
+.EvaluationFeedback {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 27px;
+  color: #151515;
+  margin-top: 15px;
+}
+.At-ratingDiv {
+  width: 192px;
+  height: 139px;
+  border: 1px solid #a2a2a2;
+  border-radius: 9px;
+  margin-top: 20px;
+  opacity: 0.8;
+  margin-right: 25px;
+  padding: 25px 0px;
+}
+.Reviewdropdown {
+  position: absolute;
+  right: 144px;
+}
+.dropdown-item {
+  font-size: 12px;
+}
+.dropdown {
+  padding: 10px;
+}
+.At-ratingDiv1 {
+  width: 192px;
+  height: 139px;
+  border: 1px solid #a2a2a2;
+  border-radius: 9px;
+  margin-top: 20px;
+  opacity: 0.8;
+  padding: 25px 0px;
+}
+.rating-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 5px;
+  /* identical to box height */
+  color: #151515;
+}
+.rating-text1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 5px;
+  /* identical to box height */
+  color: #151515;
+}
+.at-header {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #e0dcdc;
+}
+.EmployeeDetails-haeding {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+  color: #151515;
+  margin-left: 5px;
+  margin-right: 4px;
+}
+.eployeeicon {
+  width: 15px;
+  height: 20px;
+  margin-left: 4px;
+}
+.div_color {
+  background: linear-gradient(
+    180deg,
+    #004083 0%,
+    rgba(33, 89, 148, 0.99) 93.02%,
+    rgba(0, 64, 131, 0) 100%
+  );
+  border-radius: 4px;
+  width: 50px;
+  height: 3px;
+  margin-top: 20px;
+}
+.eployeepeofile {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  transition: transform 0.5s;
+}
+.eployeepeofile:hover {
+  transform: translateY(-8px);
+}
+.div_color1 {
+  width: 264px;
+  border-right: 1px solid #e0dcdc;
+  top: 79px;
+  height: 470px;
+}
+.div_color2 {
+  width: 50%;
+}
+.contentprofile {
+  position: absolute;
+  left: 15rem;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  top: 9rem;
+  transition: transform 0.5s;
+  background: #b9b9b9;
+}
+.contentprofile:hover {
+  transform: translateY(-5px);
+}
+
+.Review {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #151515;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+.Review1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #151515;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  color: #b9b9b9;
+}
+
+.one:hover {
+  color: #24288d;
+}
+.div_starcolor {
+  position: absolute;
+  left: 15rem;
+  width: 45px;
+  top: 15.75rem;
+  height: 45px;
+  background: #b9b9b9;
+  border-radius: 50%;
+  transition: transform 0.5s;
+}
+.div_starcolor:hover {
+  transform: translateY(-5px);
+  opacity: 0.5;
+}
+.div_starcolor1 {
+  position: absolute;
+  left: 15rem;
+  width: 45px;
+  top: 22.75rem;
+  height: 45px;
+  background: #b9b9b9;
+  border-radius: 50%;
+  transition: transform 0.5s;
+}
+.div_starcolor1:hover {
+  transform: translateY(-5px);
+  opacity: 0.5;
+}
+.div_starcolor2 {
+  position: absolute;
+  left: 15rem;
+  width: 45px;
+  top: 29.75rem;
+  height: 45px;
+  background: #b9b9b9;
+  border-radius: 50%;
+  transition: transform 0.5s;
+}
+.div_starcolor2:hover {
+  transform: translateY(-5px);
+  opacity: 0.5;
+}
+.Step {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #898989;
+  margin-top: 4.75rem;
+  margin-left: 4rem;
+  opacity: 0.7;
+}
+#nameinput_group {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  width: 127%;
+}
+#nameinput_group1 {
+  margin-top: 1rem;
+  margin-left: 9rem;
+  width: 136%;
+}
+.Designation {
+  margin-top: 1rem;
+  margin-left: 9rem;
+  width: 136%;
+}
+.Nameinput {
+  font-size: 12px;
+  padding: 20px 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  background: #ffffff;
+  /* Dark GreyBlue/20% */
+  border: 1px solid #eaedf1;
+}
+.Classinput {
+  font-size: 12px;
+  padding: 20px 10px 100px 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  background: #ffffff;
+  /* Dark GreyBlue/20% */
+  border: 1px solid #eaedf1;
+  height: 30px;
+}
+.Rating_cardDiv {
+  margin-top: 10px;
+  margin-left: 3rem;
+  width: 127%;
+  height: 170px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+.Rating_cardDiv1 {
+  margin-top: 10px;
+  margin-left: 9rem;
+  width: 136%;
+  height: 170px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+.text {
+  font-size: 27px;
+  font-weight: 700;
+}
+.rating_color1 {
+  width: 179px;
+  height: 9px;
+  background: #24288d;
+  border-radius: 19px;
+}
+.rating_digit1 {
+  font-size: 12px;
+  margin-top: 1rem;
+}
+.rating_digit {
+  font-size: 12px;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+#user {
+  color: #a2a2a2;
+  margin-left: 28px;
+}
+#user1 {
+  color: #a2a2a2;
+  margin-left: 23px;
+}
+#user2 {
+  color: #a2a2a2;
+  margin-left: 52px;
+}
+.custom-control {
+  margin-top: -2rem;
+  margin-left: 56rem;
+}
+#star {
+  font-size: 10px;
+  margin-right: 5px;
+  color: #f6ac25;
+}
+#star1 {
+  font-size: 10px;
+  margin-right: 5px;
+  color: #cac9c8;
+}
+.stardigit-text {
+  margin-top: -5px;
+  margin-left: 10px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+}
+#pencilicon {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #fff;
+  position: absolute;
+  margin-left: 11px;
+}
+#teaminput {
+  width: 102%;
+}
+.team_div {
+  width: 129%;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}

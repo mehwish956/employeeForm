@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>employeeform</title>
+
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+
+  <!--CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/fontawesome/css/solid.css">
+  <link rel="stylesheet" href="css/fontawesome/css/fontawesome.css">
+  <link rel="stylesheet" href="css/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <div class="At-Wrapper">
+    <div class="container">
+      <div class="row justify-content-end ml-0 mr-0">
+        <!-- select month -->
+        <select name="" id="" class="At-selectmonth">
+          <option>Select Month</option>
+          <option>January</option>
+          <option>February</option>
+          <option>March</option>
+          <option>April</option>
+          <option>May</option>
+          <option>June</option>
+          <option>Junly</option>
+          <option>August</option>
+          <option>September</option>
+          <option>OCtober</option>
+          <option>November</option>
+          <option>December</option>
+        </select>
+        <button class="border-0">
+          <!-- Change Password btn -->
+          <a href="Newpassword.html" class="btn changepaswrdbtn">Change Password</a>
+        </button>
+        <button class="border-0">
+
+          <!-- Edit Evaluation btn -->
+          <a href="#" class="btn changepaswrdbtn">Edit Evaluation</a>
+        </button>
+        <div class="dropdrown">
+          <figure type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <img src="images/Ellipse 1.png" alt="image not found" class="profileimages" />
+          </figure>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Edit Profile <span class="ti-user" id="user"></span> </a>
+            <a class="dropdown-item" href="#">Create User <i class="fas fa-user-plus" id="user1"></i></a>
+            <a class="dropdown-item" href="#">Settings <span class="ti-settings ml-5"></span></a>
+            <a class="dropdown-item" href="#">Logout <i class="fas fa-sign-out-alt" id="user2"></i></a>
+          </div>
+        </div>
+        <!-- <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Dropdown button
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div> -->
+      </div>
+    </div>
+    <div class="container">
+      <div class="At_jamesadams">
+        <div class="row justify-content-around">
+          <div class="col-lg-2">
+            <figure class="d-flex">
+              <img src="images/Ellipse 1.png" alt="image not font" class="JamesAdams_profile" />
+              <p class="JamesAdams-text">James Adams</p>
+            </figure>
+          </div>
+          <div class="col-lg-2 mt-2">
+            <!-- link -->
+            <a href="#" class="QualityEngineer text-primary">SR.Quality Engineer</a>
+          </div>
+          <div class="col-lg-2  mt-2">
+            <!-- link -->
+            <a href="#" class="QualityEngineer" style="color:#5F5F5F">abc@gmail.com</a>
+          </div>
+          <div class="col-lg-2  mt-2">
+            <!-- link -->
+            <a href="#" class="QualityEngineer">Last Rated Date: 15 Jan, 2020</a>
+          </div>
+          <div class="col-lg-2  mt-2 justify-content-end text-right">
+            <a href="#">
+              <div class="d-flex text-center justify-content-lg-center mt-2 ml-4 ml-md-4">
+                <i class="fas fa-star" id="star"></i>
+                <i class="fas fa-star" id="star"></i>
+                <i class="fas fa-star" id="star"></i>
+                <i class="fas fa-star" id="star"></i>
+                <i class="fas fa-star" id="star1"></i>
+                <p class="stardigit-text">4.5</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- div -->
+      <div class="row mt-4" data-aos="fade-up">
+        <div class="col-md-3">
+          <div class="card_div">
+            <div class="row justify-content-center">
+              <figure>
+                <img src="images/Ellipse 1.png" alt="image not found" class="cardprofile_images" />
+                <p class="JamesAdams-text mt-0">James Adams</p>
+              </figure>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <p class="Evaluated-text">Evaluated By</p>
+                <p class="Evaluated-text text-primary">Robil Peterson</p>
+              </div>
+              <div class="col-6 justify-content-end text-right">
+                <p class="Evaluated-text ml-3">Months</p>
+                <p class="Evaluated-text text-primary ml-3">March, 2021</p>
+              </div>
+            </div>
+            <div class="row justify-content-center text-center">
+              <div class="digitColor_div">
+                <p class="digit">3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- div -->
+        <div class="col-md-3" data-aos="fade-up">
+          <div class="card_div">
+            <div class="row justify-content-center">
+              <figure>
+                <img src="images/Ellipse 1.png" alt="image not found" class="cardprofile_images" />
+                <p class="JamesAdams-text mt-0">James Adams</p>
+              </figure>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <p class="Evaluated-text">Evaluated By</p>
+                <p class="Evaluated-text text-primary">Robil Peterson</p>
+              </div>
+              <div class="col-6 justify-content-end text-right">
+                <p class="Evaluated-text ml-3">Months</p>
+                <p class="Evaluated-text text-primary ml-3">April, 2021</p>
+              </div>
+            </div>
+            <div class="row justify-content-center text-center">
+              <div class="digitColor_div">
+                <p class="digit">4</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- div -->
+        <div class="col-md-3" data-aos="fade-up">
+          <div class="card_div">
+            <div class="row justify-content-center">
+              <figure>
+                <img src="images/Ellipse 1.png" alt="image not found" class="cardprofile_images" />
+                <p class="JamesAdams-text mt-0">James Adams</p>
+              </figure>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <p class="Evaluated-text">Evaluated By</p>
+                <p class="Evaluated-text text-primary">Robil Peterson</p>
+              </div>
+              <div class="col-6 justify-content-end text-right">
+                <p class="Evaluated-text ml-3">Months</p>
+                <p class="Evaluated-text text-primary ml-3">May, 2021</p>
+              </div>
+            </div>
+            <div class="row justify-content-center text-center">
+              <div class="digitColor_div">
+                <p class="digit">5</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- div -->
+        <div class="col-md-3" data-aos="fade-up">
+          <div class="card_div1">
+            <div class="row justify-content-center">
+              <figure>
+                <img src="images/Ellipse 1.png" alt="image not found" class="cardprofile_images" />
+                <p class="JamesAdams-text mt-0">James Adams</p>
+              </figure>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <p class="Evaluated-text">Evaluated By</p>
+                <p class="Evaluated-text text-primary">Robil Peterson</p>
+              </div>
+              <div class="col-6 justify-content-end text-right">
+                <p class="Evaluated-text ml-3">Months</p>
+                <p class="Evaluated-text text-primary ml-3">June, 2021</p>
+              </div>
+            </div>
+            <!-- div -->
+            <div class="row justify-content-center text-center">
+              <div class="digitColor_div">
+                <p class="digit">6</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- our aos data -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+      {
+        duration: 1000,
+      }
+    )
+  </script>
+</body>
+
+</html>
